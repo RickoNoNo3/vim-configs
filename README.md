@@ -1,4 +1,4 @@
-# vim-configs
+# vimrc
 
 自用vim配置和配色，适配vim、gvim，另附vscode、intellij idea插件配置
 
