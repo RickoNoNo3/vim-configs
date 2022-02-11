@@ -1,0 +1,32 @@
+let mapleader=','
+set nu
+set incsearch
+set ignorecase
+set whichwrap=b,s,<,>,[,]
+set backspace=indent,eol
+set history=1000
+set autoindent
+set cursorline
+set tabstop=4
+set shiftwidth=4
+set laststatus=2
+nnoremap ` za
+nnoremap <tab>e <ESC>:tabnew<CR>
+nnoremap <tab>n <ESC>:tabnext<CR>
+nnoremap <tab>p <ESC>:tabprev<CR>
+nnoremap <tab>q <ESC>:q<CR>
+nnoremap <tab>t <ESC>:vertical term<CR>
+nnoremap <tab>v <C-W>v
+nnoremap <tab>s <C-W>s
+nnoremap <tab>h <C-W>h
+nnoremap <tab>j <C-W>j
+nnoremap <tab>k <C-W>k
+nnoremap <tab>l <C-W>l
+nnoremap <tab>w <C-W>w
+nnoremap 0- $
+nnoremap 00 0
+nnoremap j gj
+nnoremap k gk
+nnoremap Q <ESC>:qa<CR>
+
+nnoremap K <ESC>:vsc Edit.QuickInfo<CR>

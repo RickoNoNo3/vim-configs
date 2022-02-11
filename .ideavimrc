@@ -1,0 +1,42 @@
+let mapleader=','
+set rnu
+set nu
+set incsearch
+set ignorecase
+set whichwrap=b,s,<,>,[,]
+set backspace=indent,eol
+set history=1000
+set autoindent
+set cursorline
+set tabstop=4
+set shiftwidth=4
+nnoremap <tab>e :tabnew<CR>
+nnoremap <tab>n :tabnext<CR>
+nnoremap <tab>p :tabprev<CR>
+nnoremap <tab>q :q<CR>
+nnoremap <tab>t :vertical term<CR>
+nnoremap <tab>v <C-W>v
+nnoremap <tab>s <C-W>s
+nnoremap <tab>h <C-W>h
+nnoremap <tab>j <C-W>j
+nnoremap <tab>k <C-W>k
+nnoremap <tab>l <C-W>l
+nnoremap <tab>w <C-W>w
+nnoremap 0- $
+nnoremap 00 0
+" nnoremap j gj
+" nnoremap k gk
+nnoremap Q :qa<CR>
+
+""" Idea specific settings ------------------
+set ideajoin
+set ideastatusicon=gray
+set idearefactormode=keep
+set nokeep-english-in-normal-and-restore-in-insert
+
+map <leader>r :action RenameElement<CR>
+map <leader>h :action Vcs.ShowTabbedFileHistory<CR>
+map <F8> :action GotoNextError<CR>
+map <S-F8> :action GotoPreviousError<CR>
+map <F9> :action ToggleLineBreakpoint<CR>
+map <Space> :action FileStructurePopup<CR>
